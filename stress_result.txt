@@ -1,0 +1,87 @@
+=== 1. Entidades Gotham/Gótica/Arkham/Wayne ===
+Empty DataFrame
+Columns: [Nombre Entidad, n]
+Index: []
+
+=== 2. Bruce Wayne como representante ===
+                                          rep               cc                                         dir  n_contratos  n_entidades  n_dept  n_ciudades
+0                           WAYNER MINA NUÑEZ          1113523                                 No Definido            3            2       1           2
+1                       WAYNE CORPUS STEPHENS         88156115                 Carretera Circunvalar Km. 7            3            2       2           2
+2                JOSE FRANCISCO BRUCE SARQUIS  Sin Descripcion                                 No Definido            3            1       1           1
+3                LUIS EDUARDO HERNANDEZ BRUCE         14226793                                 No Definido            2            1       1           1
+4                 Michael Brucee Paz Arboleda  Sin Descripcion                                 No Definido            2            1       1           1
+5       BRUCE WILLIAM ALEXANDER HOYOS MENDOZA  Sin Descripcion                            PERRY HILL 11-91            2            1       1           1
+6                                Bruce Vargas  Sin Descripcion                          Calle 77B # 129-70            2            2       1           1
+7                  DWAYNE DEXTER JAMES NELSON         18010671      COVE GREEN HILL DIAGONAL TIENDA KENEDY            2            2       1           1
+8                         ERRIX ANTONIO BRUCE         18003217                                loma barrack            1            1       1           1
+9                  Wayne Elvis Duffis Britton         18001354                  San Luis Plotform # 49 -30            1            1       1           1
+10                        WAYNER PEREA FLOREZ  Sin Descripcion                   CALLE 55 A SUR # 77K - 31            1            1       1           1
+11  Laccen Bruce Ecson Pierre Torres Quintero  Sin Descripcion                                 No Definido            1            1       1           1
+12           BRUCE KADIER DE LA PARRA VALLEJO  Sin Descripcion                                 No Definido            1            1       1           1
+13                YANETH ISABEL ALTAMAR BRUCE         22549394                                 No Definido            1            1       1           1
+14                Wayne Andrew Hooker Macariz       1123628002  Av 20 De Julio 1-69 al lado cine hollywood            1            1       1           1
+15              wayner jesus geronimo mendoza  Sin Descripcion                                 No Definido            1            1       1           1
+16                               ANDRES BRUCE  Sin Descripcion                                 No Definido            1            1       1           1
+17                     WAYNE ANDY TAYLOR NUZA       1120980326                                   Casa baja            1            1       1           1
+18        arnol brucelee montenegro hernandez  Sin Descripcion                                 No Definido            1            1       1           1
+
+=== 3. Top reps con 10+ entidades distintas ===
+                                                 rep               cc  n_contratos  n_entidades  n_dept  n_ciudades
+0                                    Sin Descripcion  Sin Descripcion         1546          665      31         242
+1                             Andrea Puerto Corredor  Sin Descripcion          812          640      27         311
+2                                  CARLOS SUA FORERO  Sin Descripcion          829          611      33         257
+3                            Doris Martinez Corredor       51.740.316          350          277      26          95
+4                        Angela Maria Alvarez Patiño         30402563          298          226      23          73
+5      SEGUROS DEL ESTADO S.A SEGUROS DEL ESTADO S.A      860009578-6          185          147      20          73
+6                             Leonardo Flórez Torres         80208663          223          135      15          24
+7                       DIANA CAROLINA GONZALEZ REAL         52833076          149          126       4           9
+8                         JUAN CAMILO BECERRA BOTERO         79601615          148          105      13          83
+9                       Andrea Catalina Abril Guzmán  Sin Descripcion          142          105       8           6
+10               LAURA VICTORIA GUAMANGA BOLAÑOS CRR  Sin Descripcion          124          105      25          50
+11                       JOSÉ FERNANDO MEDINA TOLOSA  Sin Descripcion          105          100      11          11
+12         SISTEMAS ARIES S.A.S SISTEMAS ARIES S.A.S  Sin Descripcion           97           95       5          58
+13                       Hector David Mendoza Arroyo  Sin Descripcion          109           92      19          31
+14                          Olga Lucía Acosta Cantor  Sin Descripcion          143           88       3          59
+15                      ivan Rodrigo Montejo Marquez        800103052           94           87      10          17
+16                       Hector Jose de Vivero Perez  Sin Descripcion          103           78      18          35
+17                     Manuel Francisco Lemos Ortega  Sin Descripcion           84           78      16          36
+18                            HECTOR GARCIA GONZALEZ  Sin Descripcion          160           74       6          42
+19                                JOSE ILMIDO MENDEZ  Sin Descripcion           76           72      19          37
+20                      JOSE NEMECIO SALAMANCA SILVA         74180507           73           71       7          43
+21  CAJA COLOMBIANA DE SUBSIDIO FAMILIAR COLSUBSIDIO    860.007.336-1          113           69       3          19
+22                      SEBASTIAN FELIPE DIAZ ORTEGA       1077940599           78           69      11          20
+23                 Yesica Alejandra Velásquez Orrego  Sin Descripcion          181           68       9          28
+24                 ANYI VALENTINA AVELLANEDA VENEGAS  Sin Descripcion           90           68      15          22
+25                      NUR STEFANIE ESCOBAR JIMENEZ         40048528           74           68       2          63
+26                           ANA MARIA LÓPEZ FRACICA       1031157472           86           66      15          30
+27                                  CONSUELO SANCHEZ  Sin Descripcion           86           66      19          32
+28                  COMPAÑIA MUNDIAL DE SEGUROS S.A.  Sin Descripcion           73           66      15          27
+29                   Luisa Fernanda Almadio Bautista  Sin Descripcion           75           63       7           9
+
+=== 4. Buscar supervisores Alfred/Lucius/Gordon ===
+                    Nombre supervisor Número de documento supervisor
+0   SOCORRO DE JESUS BENAVIDES GORDON                       33203836
+1         OSCAR ALFREDO ORTIZ CAMPEON                     1098310716
+2         GUSTAVO ALFREDO ORTIZ DULCE                       98397049
+3     ALFRED ENRIQUE HUDGSON MARTiNEZ                      18010437.
+4     LUIS ALFREDO ANGARITA PEÑARANDA                       88283431
+5      ALFREDO DE JESUS PERTUZ CRESPO                     1082913417
+6      CARLOS ALFREDO MOSQUERA CORTES                        4924367
+7              ALFREDO HOYOS COLORADO                       96331942
+8            TITO ALFREDO BRAVO PEREZ                       16789729
+9       ELMER ALFREDO MEJIA VIVIESCAS                       91352207
+10           TULIO ALFREDO ARIAS PAEZ                      .79351525
+11        JOSE ALFREDO JIMENEZ GARCIA                       73576237
+12       LUIS ALFREDO MAYORGA MALAGoN                       11345082
+13    GUSTAVO ALFREDO SILVA GUTIERREZ                       70925149
+14     LUIS ALFREDO JIMENEZ RODRIGUEZ                       11189991
+15      CARLOS ALFREDO ANDRADE GARCIA                     1075276033
+16              ALFREDO ATENCIO JULIO                       73096066
+17         YAIR ALFREDO ARDILA BOYA A                       11275391
+18      KEVIN ALFREDO OLIVAR TRUJILLO                     1109265754
+19     CARLOS ALFREDO BRICEÑO FONSECA                     1013655570
+
+=== 5. CC 11223344 directo ===
+Empty DataFrame
+Columns: [Nombre Entidad, Nit Entidad, Departamento, Ciudad, Localización, Orden, Sector, Rama, Entidad Centralizada, Proceso de Compra, ID Contrato, Referencia del Contrato, Estado Contrato, Codigo de Categoria Principal, Descripcion del Proceso, Tipo de Contrato, Modalidad de Contratacion, Justificacion Modalidad de Contratacion, Fecha de Firma, Fecha de Inicio del Contrato, Fecha de Fin del Contrato, Condiciones de Entrega, TipoDocProveedor, Documento Proveedor, Proveedor Adjudicado, Es Grupo, Es Pyme, Habilita Pago Adelantado, Liquidación, Obligación Ambiental, Obligaciones Postconsumo, Reversion, Origen de los Recursos, Destino Gasto, Valor del Contrato, Valor de pago adelantado, Valor Facturado, Valor Pendiente de Pago, Valor Pagado, Valor Amortizado, Valor Pendiente de Amortizacion, Valor Pendiente de Ejecucion, Saldo CDP, Saldo Vigencia, EsPostConflicto, Dias adicionados, Puntos del Acuerdo, Pilares del Acuerdo, URLProceso, Nombre Representante Legal, Nacionalidad Representante Legal, Domicilio Representante Legal, Tipo de Identificación Representante Legal, Identificación Representante Legal, Género Representante Legal, Presupuesto General de la Nacion – PGN, Sistema General de Participaciones, Sistema General de Regalías, Recursos Propios (Alcaldías, Gobernaciones y Resguardos Indígenas), Recursos de Credito, Recursos Propios, Ultima Actualizacion, Codigo Entidad, Codigo Proveedor, Fecha Inicio Liquidacion, Fecha Fin Liquidacion, Objeto del Contrato, Duración del contrato, Nombre del banco, Tipo de cuenta, Número de cuenta, El contrato puede ser prorrogado, Fecha de notificación de prorrogación, Nombre ordenador del gasto, Tipo de documento Ordenador del gasto, Número de documento Ordenador del gasto, Nombre supervisor, Tipo de documento supervisor, Número de documento supervisor, Nombre Ordenador de Pago, Tipo de documento Ordenador de Pago, Número de documento Ordenador de Pago, Documentos Tipo, Descripcion Documentos Tipo]
+Index: []

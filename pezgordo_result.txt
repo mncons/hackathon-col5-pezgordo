@@ -1,0 +1,35 @@
+=== PEZ GORDO: top reps con 10+ entidades, ordenado por monto total ===
+                                      rep               cc  n_contratos  n_entidades  n_dept  n_ciudades  monto_total
+0         CRISTIAN CAMILO CEDEÑO VILLAMIL  Sin Descripcion           23           18       3           5          NaN
+1   DIANETH ALEXANDRA PARRADO BALLESTEROS  Sin Descripcion           20           10       4           5          NaN
+2         SANDRA PATRICIA VARGAS CARVAJAL         37322874           27           11       2           6          NaN
+3                       Alejandro Ramirez       1022341492           42           36       6           8          NaN
+4            NELLY YOJHANA CAMARGO BERNAL  Sin Descripcion           37           29       8           6          NaN
+5            JOSE NEMECIO SALAMANCA SILVA         74180507           73           71       7          43          NaN
+6            OMAR ENRIQUE FLOREZ ESCORCIA  Sin Descripcion           67           46      16          27          NaN
+7                         DESCONT SAS ESP  Sin Descripcion           25           24      11          18          NaN
+8               Julio Mario Pareto Zuñiga  Sin Descripcion           12           10       5           5          NaN
+9          Juan Sebastian Martínez Puerto       9003205317           13           11       8          10          NaN
+10            CARLOS ANDRES MOLINA OBANDO  Sin Descripcion           10           10       2           7          NaN
+11               RICARDO VALENCIA ESCOBAR  Sin Descripcion           23           15       4          15          NaN
+12             LEIDY MIREYA PEREZ MONTAÑA       1053584971           63           18       2          16          NaN
+13          GUSTAVO ADOLFO PALACIO ZAPATA         71740135           17           13       9          12          NaN
+14          ANGEL MIGUEL SANCHEZ QUINTERO  Sin Descripcion           15           11       2           4          NaN
+
+=== Mismo top pero ordenado por # entidades ===
+                                              rep               cc                                                                    dir  n_contratos  n_entidades  n_dept  n_ciudades  monto_total
+0                          Andrea Puerto Corredor  Sin Descripcion                                                            No Definido          812          640      27         311          NaN
+1                               CARLOS SUA FORERO  Sin Descripcion                                                            No Definido          829          611      33         257          NaN
+2                         Doris Martinez Corredor       51.740.316                                                            No Definido          350          277      26          95          NaN
+3                     Angela Maria Alvarez Patiño         30402563                                   Av Calle 26 # 69 - 76 Torre 4 Piso 9          298          226      23          73          NaN
+4   SEGUROS DEL ESTADO S.A SEGUROS DEL ESTADO S.A      860009578-6                                                   CARRERA 11 No. 90-20          185          147      20          73          NaN
+5                          Leonardo Flórez Torres         80208663                       Diagonal 54 Nº. 20 - 30 Apto 202 Barrio Galerías          223          135      15          24          NaN
+6                    DIANA CAROLINA GONZALEZ REAL         52833076                                     Carrera 71a  No 3a - 59 Edf Amparo          149          126       4           9          NaN
+7                      JUAN CAMILO BECERRA BOTERO         79601615                                                          CALLE 73 8 13          148          105      13          83          NaN
+8             LAURA VICTORIA GUAMANGA BOLAÑOS CRR  Sin Descripcion                                                        CRA 27G #102-11          124          105      25          50          NaN
+9                    Andrea Catalina Abril Guzmán  Sin Descripcion                                              DIAGONAL 46, 76-39 OF 105          142          105       8           6          NaN
+10                    JOSÉ FERNANDO MEDINA TOLOSA  Sin Descripcion                                         CRA 13 A # 28 -38, OFICINA 202          105          100      11          11          NaN
+11      SISTEMAS ARIES S.A.S SISTEMAS ARIES S.A.S  Sin Descripcion                                                       CRA 55 No 40A 20           97           95       5          58          NaN
+12                    Hector David Mendoza Arroyo  Sin Descripcion  Carrera 19 #47-02 Conjunto Residencial Puerto millo Torre 23 Apto 101          109           92      19          31          NaN
+13                       Olga Lucía Acosta Cantor  Sin Descripcion                                                            No Definido          143           88       3          59          NaN
+14                   ivan Rodrigo Montejo Marquez        800103052                                                            No Definido           94           87      10          17          NaN
