@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "hackathon": "Hackathon Nacional COL 5.0",
+    "equipo": "TU_EQUIPO",
+    "dataset": "SECOP II - Contratos Electronicos",
+    "fecha_corte": "2026-05-06",
+    "total_registros": 1003902,
+    "total_variables": 84
+  },
+  "ronda1_jbjy_vk9h": {
+    "total_registros": 5614448,
+    "total_variables": 84,
+    "tipo_fecha_count": 7,
+    "tipo_numerico_count": 19,
+    "tipo_texto_count": 57,
+    "variable_mas_nulos": "presupuesto_general_de_la_nacion_pgn",
+    "pct_nulos_fecha_firma": 7.17,
+    "nulos_fecha_inicio_liquidacion": 5004413,
+    "max_dias_adicionados": 730533,
+    "max_valor_contrato": 9974265138436,
+    "septimo_valor_contrato": 9610000000000,
+    "fecha_firma_min": "2015-06-11",
+    "fecha_firma_max": "2026-05-04"
+  },
+  "ronda2": {
+    "Q3_total_registros": 1003902,
+    "Q4_total_variables": 84,
+    "Q5_registros_2025": 999490,
+    "Q6_pct_pymes": 13.20,
+    "Q7_n_pymes": 132479,
+    "Q8_top10_departamentos": [
+      {"rank":1,"dept":"Distrito Capital de Bogotá","contratos":280248},
+      {"rank":2,"dept":"Valle del Cauca","contratos":109856},
+      {"rank":3,"dept":"Antioquia","contratos":105810},
+      {"rank":4,"dept":"Cundinamarca","contratos":49499},
+      {"rank":5,"dept":"Santander","contratos":47128},
+      {"rank":6,"dept":"Magdalena","contratos":32097},
+      {"rank":7,"dept":"Bolívar","contratos":31612},
+      {"rank":8,"dept":"Atlántico","contratos":31428},
+      {"rank":9,"dept":"Boyacá","contratos":30849},
+      {"rank":10,"dept":"Tolima","contratos":27823}
+    ],
+    "Q9_pos6_magdalena": 32097,
+    "Q10_modalidad_preferida": "Contratación directa",
+    "Q11_n_modalidad_top": 759993,
+    "Q12_top3_entidades_dinero": [
+      {"rank":1,"entidad":"DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN","total_cop":7192818000000},
+      {"rank":2,"entidad":"MINISTERIO DE MINAS Y ENERGIA","total_cop":5117845000000},
+      {"rank":3,"entidad":"DEPARTAMENTO DE ANTIOQUIA","total_cop":3842869000000}
+    ],
+    "Q13_top5_tipos": [
+      {"rank":1,"tipo":"Prestación de servicios","contratos":860913,"pct":85.76},
+      {"rank":2,"tipo":"Decreto 092 de 2017","contratos":41384,"pct":4.12},
+      {"rank":3,"tipo":"Otro","contratos":37616,"pct":3.75},
+      {"rank":4,"tipo":"Suministros","contratos":22669,"pct":2.26},
+      {"rank":5,"tipo":"Compraventa","contratos":16845,"pct":1.68}
+    ],
+    "Q14_pct_top1_tipo": 85.76,
+    "Q15_top3_anomalos": [
+      {"entidad":"MINISTERIO DE MINAS Y ENERGIA","valor":4205028000000,"verdadero":true,"sustento":"Programa Colombia Solar - subsidios fotovoltaicos plurianuales"},
+      {"entidad":"MINISTERIO DE COMERCIO INDUSTRIA Y TURISMO","valor":2846224000000,"verdadero":true,"sustento":"Arrendamiento Zona Franca Barranquilla - contrato inmobiliario largo plazo"},
+      {"entidad":"RNEC","valor":2553311000000,"verdadero":true,"sustento":"Solución integral elecciones 2025-2026"}
+    ],
+    "Q16_pct_anticipos": 0.08,
+    "Q17_n_obligacion_ambiental": 21347,
+    "Q18_pareto": {
+      "top1_pct":67.83,
+      "top5_pct":83.05,
+      "top10_pct":86.81,
+      "top20_pct":90.72,
+      "top30_pct":93.33,
+      "conclusion":"Cumple Pareto en forma extrema: solo 5% concentra >80% del valor"
+    },
+    "Q19_brecha_genero": [
+      {"genero":"Mujer","contratos":434081,"valor_total":36474140000000,"promedio":84026115,"mediana":18850000},
+      {"genero":"Hombre","contratos":378213,"valor_total":53439220000000,"promedio":141293990,"mediana":20400000},
+      {"genero":"No Definido","contratos":188960,"valor_total":75497040000000,"promedio":399539795,"mediana":31803316},
+      {"genero":"Otro","contratos":2648,"valor_total":1292890000000,"promedio":488251694,"mediana":37806607}
+    ],
+    "Q20_anomalias_tipo": [
+      {"variable":"Valor del Contrato","actual":"VARCHAR","correcto":"DECIMAL"},
+      {"variable":"Nit Entidad","actual":"VARCHAR","correcto":"BIGINT"},
+      {"variable":"Fecha Inicio Liquidacion","actual":"VARCHAR","correcto":"DATE"},
+      {"variable":"Dias adicionados","actual":"VARCHAR","correcto":"INTEGER"},
+      {"variable":"Identificación Representante Legal","actual":"VARCHAR","correcto":"BIGINT"}
+    ]
+  },
+  "stress_test_pez_gordo": {
+    "perfil_ficticio": {
+      "nombre":"Bruce Wayne","cc":"11223344","verificado":false,
+      "explicacion":"Perfil narrativo del slide. NO existe en el dataset real."
+    },
+    "pez_gordo_real_top10": [
+      {"rank":1,"rep":"Andrea Puerto Corredor","contratos":812,"entidades":640,"dept":27,"ciudades":311},
+      {"rank":2,"rep":"CARLOS SUA FORERO","contratos":829,"entidades":611,"dept":33,"ciudades":257},
+      {"rank":3,"rep":"Doris Martinez Corredor","cc":"51740316","contratos":350,"entidades":277,"dept":26,"ciudades":95},
+      {"rank":4,"rep":"Angela Maria Alvarez Patiño","cc":"30402563","contratos":298,"entidades":226,"dept":23,"ciudades":73},
+      {"rank":5,"rep":"SEGUROS DEL ESTADO S.A","cc":"860009578-6","contratos":185,"entidades":147,"dept":20,"ciudades":73}
+    ]
+  }
+}
